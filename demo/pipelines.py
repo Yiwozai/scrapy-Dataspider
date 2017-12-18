@@ -11,9 +11,9 @@ import pymysql
 
 def db_connent():
     conn = pymysql.connect(
-        host='47.94.139.196',
+        host='localhost',
         user='root',
-        passwd='Changtia0',
+        passwd='password',
         db='academic_headline',
         charset='utf8',
         use_unicode=True
